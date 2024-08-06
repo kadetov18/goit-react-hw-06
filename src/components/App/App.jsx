@@ -6,7 +6,7 @@ import "reset-css";
 import s from "./App.module.css";
 
 import { useSelector } from "react-redux";
-import { selectContacts } from "../redux/contactsSlice";
+import { selectContacts } from "../../redux/contactsSlice";
 
 const App = () => {
   const contacts = useSelector(selectContacts);
